@@ -11,7 +11,7 @@
         }
     },
     "stops": {
-        "name_without": "Add a name to the stop with JungleBus app",
+        "name_without": "Unknown",
         "name_auto": "yes"
     },
     "agency": {
@@ -24,12 +24,13 @@
         "agency_fare_url": ""
     },
     "feed_info": {
-        "publisher_name": "Jungle Bus",
-        "publisher_url": "http://junglebus.io",
-        "version": "0.1",
-        "start_date": "20170901",
-        "end_date": "20180730"
+        "publisher_name": "OpenStreetMap Ghana",
+        "publisher_url": "https://www.osmghana.org/",
+        "version": "0.2",
+        "start_date": "20190101",
+        "end_date": "20220101"
     },
+    "schedule_source": "../osm2gtfs-prep/timetable.json",
     "output_file": "data/gh-accra.zip",
     "selector": "gh_accra"
 }
